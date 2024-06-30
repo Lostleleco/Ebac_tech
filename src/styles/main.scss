@@ -1,4 +1,9 @@
+
 @use 'hero';
+@use 'Componentes/infos_bar';
+@use 'Componentes/buttons';
+@use 'componentes/event';
+
 
 *{
     margin: 0;
@@ -6,6 +11,7 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     color: #fff;
+    list-style: none;
 }
 
 
